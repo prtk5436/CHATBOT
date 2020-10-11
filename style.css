@@ -1,0 +1,44 @@
+body { 
+	color: #421; 
+	font-weight: bold; 
+	font-size: 16px; 
+	font-family: "Courier New"; 
+	background: rgb(223, 242, 247); 
+}
+
+body::after {
+	content: "";
+	background-image: url("bot.png");
+	background-repeat: repeat-y; 
+	opacity: 0.5;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	position: r;
+	z-index: -1;   
+  }
+
+span { 
+	color: rgb(36, 17, 119); 
+} 
+::-webkit-input-placeholder { 
+	color: #711 
+}
+#main { 
+	position: fixed; 
+	top: 2%; 
+	right: 400px; 
+	width: 900px; 
+	border: 0px solid #421; 
+	padding: 20px; 
+}
+#main div { 
+	margin: 5px; 
+} 
+#input { 
+	border: 0; 
+	width: 500px;
+	padding: 5px; 
+	border: 1px solid #421; 
+}
